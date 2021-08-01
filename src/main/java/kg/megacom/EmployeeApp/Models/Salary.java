@@ -19,9 +19,11 @@ public class Salary {
     private double salary;
 
     @Column(name = "start_date")
+    @Temporal(TemporalType.TIMESTAMP)
     private Date startDate;
 
     @Column(name = "end_date")
+    @Temporal(TemporalType.TIMESTAMP)
     private Date endDate;
 
     @ManyToOne

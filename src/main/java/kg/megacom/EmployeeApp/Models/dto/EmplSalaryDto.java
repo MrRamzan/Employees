@@ -3,11 +3,9 @@ package kg.megacom.EmployeeApp.Models.dto;
 import lombok.Data;
 
 @Data
-public class EmployeeDto {
+public class EmplSalaryDto {
 
-    private Long id;
     private String firstName;
     private String lastName;
-    private boolean active;
-
+    private String salary;
 }

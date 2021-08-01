@@ -14,7 +14,7 @@ public interface SalaryMapper {
 
     SalaryDto salaryToSalaryDto(Salary salary);
 
-    SalaryDto salaryDtoToSalary(SalaryDto salaryDto);
+    Salary salaryDtoToSalary(SalaryDto salaryDto);
 
     List<SalaryDto> salaryListToSalaryDtoList(List<Salary> salaryList);
 
